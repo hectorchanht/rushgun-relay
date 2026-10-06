@@ -1,0 +1,16 @@
+{
+  "name": "rushgun-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gun.js relay server for rushgun (https://rushgun.vercel.app)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "gun": "^0.2020.1241"
+  }
+}
